@@ -1,0 +1,20 @@
+:root{
+    --color-pink-mist: #D991BA;
+    --color-petal-frost: #F5D5ED;
+    --color-muted-olive: #8CAE68;
+    --color-charcoal: #222021;
+    --color-white: #FFFFFF;
+
+    --font-headings: "Marck Script", cursive;
+    --font-p: Montserrat, Open Sans, Arial;
+    --text-heading-h1:
+    --text-heading-h2:
+    --text-p:
+
+}
+
+.marck-script-regular {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
