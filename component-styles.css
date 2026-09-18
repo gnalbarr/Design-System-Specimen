@@ -7,9 +7,9 @@
 
     --font-headings: "Marck Script", cursive;
     --font-p: Montserrat, Open Sans, Arial;
-    --text-heading-h1:
-    --text-heading-h2:
-    --text-p:
+    --text-heading-h1: clamp(2.5rem, 10vh, 4rem);
+    --text-heading-h2: clamp (1.75rem, 4vh, 2rem);
+    --text-p: clamp(1rem, 2.5vh, 2rem)
 
 }
 
