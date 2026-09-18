@@ -8,7 +8,7 @@
     --font-headings: "Marck Script", cursive;
     --font-p: Montserrat, Open Sans, Arial;
     --text-heading-h1: clamp(2.5rem, 10vh, 4rem);
-    --text-heading-h2: clamp (1.75rem, 4vh, 2rem);
+    --text-heading-h2: clamp (3rem, 4vh, 3rem);
     --text-p: clamp(1rem, 2.5vh, 2rem)
 
 }
@@ -18,3 +18,22 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+
+body{ color:var(--color-charcoal); background: var(--color-petal-frost); font-family: var(--font-p); line-height: 1;
+}
+header{ background: var(--color-pink-mist); font-family: var(--font-headings);font-size: var(--text-heading-h1);}
+img{ max-width: 30%;}
+h2{ font-family: var(--font-headings)}
+p{ font-size: var(--text-p);}
+
+.theme-alt{
+    --alt-font-heading: Playfair Display, Georgia, serif;
+    --alt-body-font: Source Sans Pro, Montserrat, sans serif;
+    --color-lobster-pink: #EB5160;
+    --color-alabaster-grey: #DFE0E2;
+    --color-rosy-taupe: #B7999C;
+    --color-silver: #AAAAAA;
+
+}
