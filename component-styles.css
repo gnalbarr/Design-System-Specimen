@@ -21,16 +21,19 @@
 
 
 
-body{ color:var(--color-charcoal); background: var(--color-petal-frost); font-family: var(--font-p); line-height: 1;
+body{ color:var(--color-charcoal); background: var(--color-petal-frost); font-family: var(--font-p); line-height: 1; border: var(--color-muted-olive);
 }
-header{ background: var(--color-pink-mist); font-family: var(--font-headings);font-size: var(--text-heading-h1);}
+header{ background: var(--color-pink-mist); font-family: var(--font-headings);font-size: var(--text-heading-h1); text-align: center;}
 img{ max-width: 30%;}
 h2{ font-family: var(--font-headings)}
 p{ font-size: var(--text-p);}
+form { display: grid; gap: .75rem; max-width: 10rem; padding: 10px; }
+button{ padding:20px; background: var(--color-muted-olive); cursor: pointer; font-family: var(--font-headings); color: var(--color-white);}
 
 .theme-alt{
     --alt-font-heading: Playfair Display, Georgia, serif;
     --alt-body-font: Source Sans Pro, Montserrat, sans serif;
+
     --color-lobster-pink: #EB5160;
     --color-alabaster-grey: #DFE0E2;
     --color-rosy-taupe: #B7999C;
