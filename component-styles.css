@@ -8,8 +8,9 @@
     --font-headings: "Marck Script", cursive;
     --font-p: Montserrat, Open Sans, Arial;
     --text-heading-h1: clamp(2.5rem, 10vh, 4rem);
-    --text-heading-h2: clamp (3rem, 4vh, 3rem);
-    --text-p: clamp(1rem, 2.5vh, 2rem)
+    --text-heading-h2: clamp(3rem, 4vh, 3rem);
+    --text-p: clamp(1rem, 2.5vh, 2rem);
+
 
 }
 
@@ -21,14 +22,16 @@
 
 
 
-body{ color:var(--color-charcoal); background: var(--color-petal-frost); font-family: var(--font-p); line-height: 1; border: var(--color-muted-olive);
-}
-header{ background: var(--color-pink-mist); font-family: var(--font-headings);font-size: var(--text-heading-h1); text-align: center;}
-img{ max-width: 30%;}
-h2{ font-family: var(--font-headings)}
-p{ font-size: var(--text-p);}
-form { display: grid; gap: .75rem; max-width: 10rem; padding: 10px; }
-button{ padding:20px; background: var(--color-muted-olive); cursor: pointer; font-family: var(--font-headings); color: var(--color-white);}
+
+  body{ color:var(--color-charcoal); background: var(--color-petal-frost); font-family: var(--font-p); line-height: 1; border: var(--color-muted-olive);
+  }
+  header{ background: var(--color-pink-mist); font-family: var(--font-headings);font-size: var(--text-heading-h1); text-align: center;}
+  img{ max-width: 30%;}
+  h2{ font-family: var(--font-headings)}
+  p{ font-size: var(--text-p);}
+  form { display: grid; gap: .75rem; max-width: 10rem; padding: 10px; }
+  button{ padding:20px; background: var(--color-muted-olive); cursor: pointer; font-family: var(--font-headings); color: var(--color-white);}
+  
 
 .theme-alt{
     --alt-font-heading: Playfair Display, Georgia, serif;
